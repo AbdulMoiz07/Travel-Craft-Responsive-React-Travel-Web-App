@@ -29,6 +29,7 @@ Create a `.env` file in the **root directory** (next to `src/` and `backend/`):
 
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
+GEMINI_API_KEY=your gemini key
 ```
 
 **Get your OpenRouter API key:**
@@ -37,6 +38,18 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 3. Go to Profile → API Keys → Generate a key
 4. Paste it above
 
+**Get your Gemini API key:**
+🔑 Step 1: Get Your API Key from Google
+Go to Google AI Studio
+
+Log in with your Google account.
+
+Click on your profile → API Keys
+
+Click "Create API key"
+
+Copy your key (starts with AIza...)
+VITE_GEMINI_API_KEY=AIzaSyYourFullKeyHere
 ---
 
 #### 📁 B. Backend `.env` (for MongoDB, Sessions, etc.)
@@ -118,3 +131,4 @@ This will launch the chatbot locally using your OpenRouter API key.
 - Environment variables securely handle API keys and database secrets.
 
 ---
+If you're facing issue feel free to mail me at lcroft030@gmail.com
